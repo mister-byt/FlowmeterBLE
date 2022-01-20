@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText36"
+            android:text="0x00000000"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText37"
+            android:text="Full ERROR code"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:textSize="14dp"
+        android:text="OK"
+        android:layout_marginLeft="15dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:textSize="14dp"
+        android:text="Channel1 -Noise"
+        android:layout_marginLeft="15dp" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:textSize="14dp"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:textSize="14dp"
+            android:text="Channel1 -Bubble"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText8"
+            android:textSize="14dp"
+            android:text="OK"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText9"
+            android:textSize="14dp"
+            android:text="Channel1 -Sensor FAIL"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText10"
+            android:textSize="14dp"
+            android:text="OK"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText11"
+            android:textSize="14dp"
+            android:text="Channel1 -Low amplitude"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText12"
+            android:textSize="14dp"
+            android:text="OK"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText13"
+            android:textSize="14dp"
+            android:text="Channel1 -FHL problem"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText14"
+            android:text="OK"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText15"
+            android:textSize="14dp"
+            android:text="Channel2 -Noise"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText16"
+            android:text="OK"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText17"
+            android:textSize="14dp"
+            android:text="Channel2 -Bubble"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText18"
+            android:text="OK"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText19"
+            android:text="Channel2 -Sensor FAIL"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText20"
+            android:text="OK"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText21"
+            android:text="Channel2 -Low amplitude"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText22"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText23"
+            android:text="Channel2 -FHL problem"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText24"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText25"
+            android:text="Channel3 -Noise"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText26"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText27"
+            android:text="Channel3 -Bubble"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText28"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText29"
+            android:text="Channel3 -Sensor FAIL"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText30"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText31"
+            android:text="Channel3 -Low amplitude"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText32"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText33"
+            android:text="Channel3 -FHL problem"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText34"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText35"
+            android:text="Zerro offset"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText38"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText39"
+            android:text="Flash error"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText40"
+            android:text="OK"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText41"
+            android:text="SPI error"
+            android:layout_marginLeft="15dp"
+            android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>

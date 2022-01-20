@@ -1,0 +1,14 @@
+<resources>
+    <color name="light_gray">#66e0e0e0</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="actionBar_background">#FFFFFF</color>
+    <color name="actionbar_background">#FFFFFF</color>
+    <color name="button_down">@color/darkblue</color>
+    <color name="actionbar_text">@color/blue</color>
+    <color name="green">#27D34D</color>
+    <color name="blue">#2A91BD</color>
+    <color name="darkblue">#206c8c</color>
+    <color name="orange">#FF9D2F</color>
+    <color name="red">#FF432F</color>
+</resources>

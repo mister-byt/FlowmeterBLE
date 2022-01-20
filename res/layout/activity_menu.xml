@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_menu"
+        android:weightSum="4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonScan"
+            android:id="@+id/buttonScan"
+            android:onClick="onSCANclick"
+            android:background="@color/actionbar_text"
+            android:layout_weight="1"
+            android:textColor="@color/actionBar_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonShow"
+            android:id="@+id/buttonShow"
+            android:onClick="onSHOWclick"
+            android:background="@color/actionbar_text"
+            android:layout_weight="1"
+            android:textColor="@color/actionBar_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonConf"
+            android:onClick="onCONFclick"
+            android:id="@+id/buttonConf"
+            android:background="@color/actionbar_text"
+            android:layout_weight="1"
+            android:textColor="@color/actionBar_background" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonInfo"
+            android:onClick="onINFOclick"
+            android:id="@+id/buttonInfo"
+            android:textColor="@color/actionBar_background"
+            android:layout_weight="1"
+            android:background="@color/actionbar_text" />
+</LinearLayout>

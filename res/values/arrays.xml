@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_grapf">
+        <item>TOF_DIFF , ns</item>
+        <item>FLOW_SPEED , mm/s</item>
+        <item>FLOW , l/h</item>
+        <item>VOLUME , m3</item>
+    </string-array>
+    <string-array name="show_parameters">
+        <item>Update all by Timer</item>
+        <item>Update all by Notify</item>
+        <item>Text by Notify, Grapf by Timer</item>
+    </string-array>
+    <string-array name="show_period">
+        <item>Period: 100 ms</item>
+        <item>Period: 500 ms</item>
+        <item>Period: 1000 ms</item>
+        <item>Period: 2000 ms</item>
+        <item>Period: 5000 ms</item>
+        <item>Period: 10000 ms</item>
+        <item>Period: 30000 ms</item>
+    </string-array>
+    <string-array name="show_wparameters" >
+        <item>Output settings</item>
+        <item>GK settings</item>
+        <item>Zero settings</item>
+        <item>Qmin settings</item>
+        <item>Qmax settings</item>
+        <item>Read Tech number</item>
+        <item>Preset settings</item>
+        <item>Flash read</item>
+        <item>Flash write</item>
+        <item>Authorization</item>
+    </string-array>
+    <string-array name="show_outputtype" >
+        <item>Frequency output</item>
+        <item>Impulse output</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="show_outputtype_pf" >
+        <item>Select output</item>
+        <item>Write MAX frequency</item>
+        <item>Read MAX frequency</item>
+        <item>Write OFFSET </item>
+        <item>Read OFFSET </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="show_outputtype_pi" >
+        <item>Select output</item>
+        <item>Write Imp/l</item>
+        <item>Read Imp/l</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="show_gk" >
+        <item>Write GK</item>
+        <item>Read GK</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="Set_zero" >
+    <item>Set zero point</item>
+    <item>Reset to 0</item>
+    <item> </item>
+    <item> </item>
+    <item> </item>
+    <item> </item>
+    <item> </item>
+    <item> </item>
+    <item> </item>
+        <item> </item>
+</string-array>
+    <string-array name="Set_qmin" >
+        <item>Write Qmin</item>
+        <item>Read Qmin</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="Set_qmax" >
+        <item>Write Qmax</item>
+        <item>Read Qmax</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+</resources>

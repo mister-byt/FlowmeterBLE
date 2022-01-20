@@ -1,0 +1,88 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+         <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- My Application theme. -->
+    <style name="AppTheme1"
+        parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/actionbar_text</item>
+        <item name="android:colorBackground">@color/actionbar_background</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="actionMenuTextColor">@color/actionbar_text</item>
+
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse" >
+        <item name="android:background">@color/actionbar_background</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/actionbar_background</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <!-- ActionBar tabs text -->
+    <style name="MyActionBarTabText"
+        parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <style name="GridLayoutDataTextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:maxLines">100</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="GridLayoutDataTextViewMonospace" parent="@style/GridLayoutDataTextView">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="GridLayoutTitleTextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
